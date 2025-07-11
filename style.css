@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  #ffdab9;
+    
+}
+#website-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: #8b0000;
+    color: white;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 4px #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main-text-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+.main-text{
+    font-size: 2.5rem;
+    margin-bottom: 100px;
+    color: #b22222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#message-div{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+        width: 47%;
+    height: 330px;
+    margin-top: -40px;
+    margin-left: 27%;
+    border-radius: 10px;
+    border: 2px dashed #b22222;
+    resize: none;
+    background-color: #fff6ee;
+}
+.textarea-text{
+font-size: 1.2rem;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(56, 56, 56);
+margin-top: 30px;
+margin-left: 0px;
+text-align: center;
+}
+#textarea-field{
+    position: absolute;
+width: 90%;
+height: 100px;
+margin-top: 120px;
+border: 2px solid rgb(145, 0, 0);
+padding: 10px;
+border-radius: 10px;
+}
+#submit-button{
+    position: absolute;
+    width: 145px;
+    height: 40px;
+    background-color: rgb(184, 61, 61);
+    font-size: 16px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    margin-top: 270px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+#submit-button:hover{
+background-color: #790000;
+}
+#santa-img{
+    position: absolute;
+    width: 150px;
+    height: auto;
+    margin-top: 380px;
+    margin-left: 52%;
+}
+#gift-img{
+    position: absolute;
+    width: 150px;
+    height: auto;
+    margin-top: 340px;
+    margin-left: 38%;
+}
+.website-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 85px;
+    background-color: #990000;
+    color: white;
+    font-size: 15px;
+    margin-top: 650px;
+        text-shadow: 2px 2px 4px #000;
+}
+.santa-emoji{
+    position: absolute;
+}
